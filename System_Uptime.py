@@ -12,7 +12,7 @@ def get_Unix_System_Uptime_Info() -> dict:
     uptime_hours = uptime // 3600
     uptime_minutes = (uptime % 3600) // 60
     return {
-        "System Boot Time": boot_time,
+        "System Boot Time": str(boot_time),
         "System Uptime": str(uptime_hours) + ":" + str(uptime_minutes) + " hours"
     }
 

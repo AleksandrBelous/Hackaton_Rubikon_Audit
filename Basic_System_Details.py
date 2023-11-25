@@ -14,7 +14,7 @@ def get_Common_Basic_System_Details() -> dict:
         # the version of Operating System
         "OS Version": platform.version(),
         # the Node or hostname of Operating System
-        "Node": platform.node(),
+        "Host name": platform.node(),
         # system platform
         "Platform": platform.platform(),
         # the processor information

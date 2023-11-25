@@ -22,7 +22,7 @@ def get_Common_Cores_Info() -> dict:
     }
     # This will print the usage of CPU per core
     for i, percentage in enumerate(psutil.cpu_percent(percpu=True, interval=1)):
-        result["CPU Usage of Core {i}"] = f"{percentage}%"
+        result[f"CPU Usage of Core {i}"] = f"{percentage}%"
     result["Total CPU Usage"] = f"{psutil.cpu_percent()}%"
     return result
 
