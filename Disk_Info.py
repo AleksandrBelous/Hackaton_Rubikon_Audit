@@ -12,7 +12,7 @@ def get_Common_Disk_Info() -> dict:
     result = dict()
     try:
         # accessing all the disk partitions
-        disk_partitions = psutil.disk_partitions()
+        disk_partitions = psutil.disk_partitions(all=True)
 
         # get read/write statistics since boot
         disk_rw = psutil.disk_io_counters()
@@ -20,17 +20,19 @@ def get_Common_Disk_Info() -> dict:
         # displaying the partition and usage information
 
         for partition in disk_partitions:
-            disk_usage = psutil.disk_usage(partition.mountpoint)
-            result[partition.device] = {
-                "Partition Device": partition.device,
-                "File System": partition.fstype,
-                "Options": partition.opts.split(',')[0],
-                "Mount point": partition.mountpoint,
-                "Total Disk Space": f"{bytes_to_GB(disk_usage.total)} GB",
-                "Free Disk Space": f"{bytes_to_GB(disk_usage.free)} GB",
-                "Used Disk Space": f"{bytes_to_GB(disk_usage.used)} GB",
-                "Percentage Used": f"{disk_usage.percent} %"
-            }
+            if not ("cdrom" in partition.opts or "dvd" in partition.opts):
+                disk_usage = psutil.disk_usage(partition.mountpoint)
+                if disk_usage.total:
+                    result[partition.device] = {
+                        "Partition Device": partition.device,
+                        "File System": partition.fstype,
+                        "Options": partition.opts.split(',')[0],
+                        "Mount point": partition.mountpoint,
+                        "Total Disk Space": f"{bytes_to_GB(disk_usage.total)} GB",
+                        "Free Disk Space": f"{bytes_to_GB(disk_usage.free)} GB",
+                        "Used Disk Space": f"{bytes_to_GB(disk_usage.used)} GB",
+                        "Percentage Used": f"{disk_usage.percent} %"
+                    }
 
         result["Total Read since boot"] = f"{bytes_to_GB(disk_rw.read_bytes)} GB"
         result["Total Write since boot"] = f"{bytes_to_GB(disk_rw.write_bytes)} GB"
