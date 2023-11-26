@@ -4,6 +4,7 @@ import docx
 from json2xml import json2xml
 from json2xml.utils import readfromjson
 import Basic_System_Details
+import DMI_File_Info
 import CPU_Info
 import Disk_Info
 import GPU_Info
@@ -20,6 +21,7 @@ json_file_path = 'report.json'
 def append_to_json(keys: list) -> None:
     audit_dct = {
         "Общие данные о системе": Basic_System_Details.get_Common_Basic_System_Details(),
+        "Данные из dmi/id":DMI_File_Info.get_Unix_DMI_id_Info(),
         "Системное время": System_Uptime.get_Unix_System_Uptime_Info(),
         "Пользователи": Users_Info.get_Common_Users_Info(),
         "Ядра ОС": CPU_Info.get_Common_Cores_Info(),
@@ -70,12 +72,14 @@ def create_pdf(jsonfile):
                         for subpart in data[element][part]:
                             if type(data[element][part][subpart]) != dict:
                                 pdf.cell(200, 10, ln=1,
-                                         txt="               " + str(subpart) + ": " + str(data[element][part][subpart]))
+                                         txt="               " + str(subpart) + ": " + str(
+                                             data[element][part][subpart]))
                             else:
                                 pdf.cell(200, 10, ln=1, txt="               " + str(subpart) + ": ")
                                 for subsubpart in data[element][part][subpart]:
-                                    pdf.cell(200, 10, ln=1, txt="                       " + str(subsubpart) + ": " + str(
-                                        data[element][part][subpart][subsubpart]))
+                                    pdf.cell(200, 10, ln=1,
+                                             txt="                       " + str(subsubpart) + ": " + str(
+                                                 data[element][part][subpart][subsubpart]))
 
             pdf.output("output.pdf")
             print(f"PDF-отчёт создан")
@@ -120,6 +124,7 @@ def create_html(jsonfile):
         print(f"HTML-отчёт создан")
     except Exception as e:
         print(f"Произошла ошибка при добавлении данных в файл: {e}")
+
 
 # Создание DOCX-отчёта
 def create_docx(jsonfile):
@@ -166,6 +171,7 @@ def create_xml(jsonfile):
 
 
 def create_reports(keys: list):
+    # print(f'keys = {keys}')
     append_to_json(keys)
     create_pdf(json_file_path)
     create_html(json_file_path)

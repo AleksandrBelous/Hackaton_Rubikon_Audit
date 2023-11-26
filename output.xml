@@ -1,0 +1,2352 @@
+<?xml version="1.0" ?>
+<all>
+	<Общие_данные_о_системе type="dict">
+		<Architecture type="str">64bit</Architecture>
+		<Machine type="str">x86_64</Machine>
+		<OS_Release type="str">6.1.0-kali9-amd64</OS_Release>
+		<OS_Name type="str">Linux</OS_Name>
+		<OS_Version type="str">#1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1kali1 (2023-05-12)</OS_Version>
+		<Host_name type="str">kali</Host_name>
+		<Platform type="str">Linux-6.1.0-kali9-amd64-x86_64-with-glibc2.37</Platform>
+		<Processor type="str"/>
+	</Общие_данные_о_системе>
+	<key name="Данные из dmi/id" type="dict">
+		<bios_date type="str">12/01/2006</bios_date>
+		<product_name type="str">VirtualBox</product_name>
+		<sys_vendor type="str">innotek GmbH</sys_vendor>
+		<bios_version type="str">VirtualBox</bios_version>
+		<product_version type="str">1.2</product_version>
+		<board_vendor type="str">Oracle Corporation</board_vendor>
+		<product_sku type="str"/>
+		<product_family type="str">Virtual Machine</product_family>
+		<bios_vendor type="str">innotek GmbH</bios_vendor>
+		<board_asset_tag type="str"/>
+		<board_version type="str">1.2</board_version>
+		<board_name type="str">VirtualBox</board_name>
+	</key>
+	<Системное_время type="dict">
+		<System_Boot_Time type="str">2023-11-25 23:59:32</System_Boot_Time>
+		<System_Uptime type="str">3:18 hours</System_Uptime>
+	</Системное_время>
+	<Пользователи type="dict">
+		<kali type="dict">
+			<name type="str">kali</name>
+			<terminal type="str">tty7</terminal>
+			<host type="str">localhost</host>
+			<started type="str">1700974976.0 seconds since the epoch</started>
+			<pid type="int">992</pid>
+		</kali>
+	</Пользователи>
+	<Ядра_ОС type="dict">
+		<Number_of_Physical_cores type="int">2</Number_of_Physical_cores>
+		<Number_of_Total_cores type="int">2</Number_of_Total_cores>
+		<Max_Frequency type="str">0.00Mhz</Max_Frequency>
+		<Min_Frequency type="str">0.00Mhz</Min_Frequency>
+		<Current_Frequency type="str">2304.00Mhz</Current_Frequency>
+		<CPU_Usage_of_Core_0 type="str">34.0%</CPU_Usage_of_Core_0>
+		<CPU_Usage_of_Core_1 type="str">38.4%</CPU_Usage_of_Core_1>
+		<Total_CPU_Usage type="str">50.1%</Total_CPU_Usage>
+	</Ядра_ОС>
+	<Процессоры type="dict">
+		<Processor_0 type="str"> Intel(R) Pentium(R) CPU 4417U @ 2.30GHz</Processor_0>
+		<Processor_1 type="str"> Intel(R) Pentium(R) CPU 4417U @ 2.30GHz</Processor_1>
+	</Процессоры>
+	<key name="HDD/SSD устройства" type="dict">
+		<udev type="dict">
+			<Partition_Device type="str">udev</Partition_Device>
+			<File_System type="str">devtmpfs</File_System>
+			<Options type="str">rw</Options>
+			<Mount_point type="str">/dev</Mount_point>
+			<Total_Disk_Space type="str">3.84 GB</Total_Disk_Space>
+			<Free_Disk_Space type="str">3.84 GB</Free_Disk_Space>
+			<Used_Disk_Space type="str">0.0 GB</Used_Disk_Space>
+			<Percentage_Used type="str">0.0 %</Percentage_Used>
+		</udev>
+		<tmpfs type="dict">
+			<Partition_Device type="str">tmpfs</Partition_Device>
+			<File_System type="str">tmpfs</File_System>
+			<Options type="str">rw</Options>
+			<Mount_point type="str">/run/user/1000</Mount_point>
+			<Total_Disk_Space type="str">0.78 GB</Total_Disk_Space>
+			<Free_Disk_Space type="str">0.78 GB</Free_Disk_Space>
+			<Used_Disk_Space type="str">0.0 GB</Used_Disk_Space>
+			<Percentage_Used type="str">0.0 %</Percentage_Used>
+		</tmpfs>
+		<key name="/dev/sda1" type="dict">
+			<Partition_Device type="str">/dev/sda1</Partition_Device>
+			<File_System type="str">ext4</File_System>
+			<Options type="str">rw</Options>
+			<Mount_point type="str">/</Mount_point>
+			<Total_Disk_Space type="str">78.28 GB</Total_Disk_Space>
+			<Free_Disk_Space type="str">53.97 GB</Free_Disk_Space>
+			<Used_Disk_Space type="str">20.29 GB</Used_Disk_Space>
+			<Percentage_Used type="str">27.3 %</Percentage_Used>
+		</key>
+		<Desktop type="dict">
+			<Partition_Device type="str">Desktop</Partition_Device>
+			<File_System type="str">vboxsf</File_System>
+			<Options type="str">rw</Options>
+			<Mount_point type="str">/media/files</Mount_point>
+			<Total_Disk_Space type="str">464.71 GB</Total_Disk_Space>
+			<Free_Disk_Space type="str">36.37 GB</Free_Disk_Space>
+			<Used_Disk_Space type="str">428.34 GB</Used_Disk_Space>
+			<Percentage_Used type="str">92.2 %</Percentage_Used>
+		</Desktop>
+	</key>
+	<key name="CD/DVD устройства" type="dict"/>
+	<USB_устройства type="dict">
+		<usb_1 type="dict">
+			<id type="str">80ee:0021</id>
+			<tag type="str">VirtualBox USB Tablet</tag>
+			<device type="str">/dev/bus/usb/001/002</device>
+		</usb_1>
+		<usb_2 type="dict">
+			<id type="str">1d6b:0001</id>
+			<tag type="str">Linux Foundation 1.1 root hub</tag>
+			<device type="str">/dev/bus/usb/001/001</device>
+		</usb_2>
+	</USB_устройства>
+	<Данные_о_GPU type="dict">
+		<GPU_Information type="dict">
+			<key name="00:02.0 VGA compatible controller" type="str">VMware SVGA II Adapter (prog-if 00 [VGA controller])</key>
+			<Subsystem type="str">VMware SVGA II Adapter</Subsystem>
+			<Flags type="str">bus master, fast devsel, latency 64, IRQ 18</Flags>
+			<n1 type="str">I/O ports at d010 [size=16]</n1>
+			<n2 type="str">Memory at e0000000 (32-bit, prefetchable) [size=128M]</n2>
+			<n3 type="str">Memory at f0000000 (32-bit, non-prefetchable) [size=2M]</n3>
+			<n4 type="str">Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]</n4>
+			<Kernel_driver_in_use type="str">vmwgfx</Kernel_driver_in_use>
+			<Kernel_modules type="str">vmwgfx</Kernel_modules>
+		</GPU_Information>
+	</Данные_о_GPU>
+	<Данные_о_RAM_памяти type="dict">
+		<Total_Memory_present type="str">7.76 Gb</Total_Memory_present>
+		<Total_Memory_Available type="str">4.51 Gb</Total_Memory_Available>
+		<Total_Memory_Used type="str">2.92 Gb</Total_Memory_Used>
+		<Percentage_Total_Memory_Used type="str">41.8 %</Percentage_Total_Memory_Used>
+		<Total_swap_memory type="float">1.0</Total_swap_memory>
+		<Free_swap_memory type="float">1.0</Free_swap_memory>
+		<Used_swap_memory type="float">0.0</Used_swap_memory>
+		<Percentage_Swap_Used type="str">0.0 %</Percentage_Swap_Used>
+	</Данные_о_RAM_памяти>
+	<Сетевые_настройки type="dict">
+		<lo type="dict">
+			<n1 type="dict">
+				<Address type="str">127.0.0.1</Address>
+				<Netmask type="str">255.0.0.0</Netmask>
+				<Broadcast type="null"/>
+				<point_to_point type="null"/>
+			</n1>
+			<n2 type="dict">
+				<Address type="str">::1</Address>
+				<Netmask type="str">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</Netmask>
+				<Broadcast type="null"/>
+				<point_to_point type="null"/>
+			</n2>
+			<n3 type="dict">
+				<Address type="str">00:00:00:00:00:00</Address>
+				<Netmask type="null"/>
+				<Broadcast type="null"/>
+				<point_to_point type="null"/>
+			</n3>
+		</lo>
+		<eth0 type="dict">
+			<n1 type="dict">
+				<Address type="str">192.168.0.132</Address>
+				<Netmask type="str">255.255.255.0</Netmask>
+				<Broadcast type="str">192.168.0.255</Broadcast>
+				<point_to_point type="null"/>
+			</n1>
+			<n2 type="dict">
+				<Address type="str">fd01::c947:81f7:b0e2:ad63</Address>
+				<Netmask type="str">ffff:ffff:ffff:ffff::</Netmask>
+				<Broadcast type="null"/>
+				<point_to_point type="null"/>
+			</n2>
+			<n3 type="dict">
+				<Address type="str">fe80::3fa5:ec5c:67c2:6995%eth0</Address>
+				<Netmask type="str">ffff:ffff:ffff:ffff::</Netmask>
+				<Broadcast type="null"/>
+				<point_to_point type="null"/>
+			</n3>
+			<n4 type="dict">
+				<Address type="str">08:00:27:23:91:da</Address>
+				<Netmask type="null"/>
+				<Broadcast type="str">ff:ff:ff:ff:ff:ff</Broadcast>
+				<point_to_point type="null"/>
+			</n4>
+		</eth0>
+		<Total_Bytes_Sent type="str">0.0 GB</Total_Bytes_Sent>
+		<Total_Bytes_Received type="str">0.07 GB</Total_Bytes_Received>
+	</Сетевые_настройки>
+	<Приложения type="dict">
+		<About_Xfce type="dict">
+			<name type="str">About Xfce</name>
+			<size type="int">5328</size>
+			<date_modified type="str">2023-06-13 01:58:25</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:38:23</date_created>
+		</About_Xfce>
+		<Access_Prompt type="dict">
+			<name type="str">Access Prompt</name>
+			<size type="int">6460</size>
+			<date_modified type="str">2023-05-25 09:07:13</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:32:27</date_created>
+		</Access_Prompt>
+		<Accessibility type="dict">
+			<name type="str">Accessibility</name>
+			<size type="int">13812</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Accessibility>
+		<Advanced_Network_Configuration type="dict">
+			<name type="str">Advanced Network Configuration</name>
+			<size type="int">8413</size>
+			<date_modified type="str">2023-07-30 17:19:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:01:10</date_created>
+		</Advanced_Network_Configuration>
+		<Appearance type="dict">
+			<name type="str">Appearance</name>
+			<size type="int">17558</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Appearance>
+		<Application_Finder type="dict">
+			<name type="str">Application Finder</name>
+			<size type="int">10499</size>
+			<date_modified type="str">2022-12-15 20:09:57</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Application_Finder>
+		<Atril_Document_Viewer type="dict">
+			<name type="str">Atril Document Viewer</name>
+			<size type="int">14114</size>
+			<date_modified type="str">2023-01-13 01:52:14</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Atril_Document_Viewer>
+		<Audacity type="dict">
+			<name type="str">Audacity</name>
+			<size type="int">2909</size>
+			<date_modified type="str">2023-06-16 16:34:40</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:29:23</date_created>
+		</Audacity>
+		<Bluetooth_Adapters type="dict">
+			<name type="str">Bluetooth Adapters</name>
+			<size type="int">3651</size>
+			<date_modified type="str">2023-08-20 02:22:00</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:13:20</date_created>
+		</Bluetooth_Adapters>
+		<Bluetooth_Manager type="dict">
+			<name type="str">Bluetooth Manager</name>
+			<size type="int">2524</size>
+			<date_modified type="str">2023-08-20 02:22:00</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:13:20</date_created>
+		</Bluetooth_Manager>
+		<Bulk_Rename type="dict">
+			<name type="str">Bulk Rename</name>
+			<size type="int">12719</size>
+			<date_modified type="str">2023-06-13 03:09:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:29</date_created>
+		</Bulk_Rename>
+		<CherryTree type="dict">
+			<name type="str">CherryTree</name>
+			<size type="int">1321</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</CherryTree>
+		<Clipboard_Manager type="dict">
+			<name type="str">Clipboard Manager</name>
+			<size type="int">4510</size>
+			<date_modified type="str">2023-08-09 19:34:10</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:19</date_created>
+		</Clipboard_Manager>
+		<Clipboard_Manager_Settings type="dict">
+			<name type="str">Clipboard Manager Settings</name>
+			<size type="int">4349</size>
+			<date_modified type="str">2023-08-09 19:34:10</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:19</date_created>
+		</Clipboard_Manager_Settings>
+		<Color_Profiles type="dict">
+			<name type="str">Color Profiles</name>
+			<size type="int">8880</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Color_Profiles>
+		<Create_Launcher_on_the_panel type="dict">
+			<name type="str">Create Launcher on the panel</name>
+			<size type="int">9026</size>
+			<date_modified type="str">2023-06-15 03:17:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:40:03</date_created>
+		</Create_Launcher_on_the_panel>
+		<Default_Applications type="dict">
+			<name type="str">Default Applications</name>
+			<size type="int">12737</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Default_Applications>
+		<Desktop type="dict">
+			<name type="str">Desktop</name>
+			<size type="int">7469</size>
+			<date_modified type="str">2023-01-30 04:19:21</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Desktop>
+		<Display type="dict">
+			<name type="str">Display</name>
+			<size type="int">12398</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Display>
+		<Engrampa_Archive_Manager type="dict">
+			<name type="str">Engrampa Archive Manager</name>
+			<size type="int">15711</size>
+			<date_modified type="str">2021-12-12 10:00:52</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Engrampa_Archive_Manager>
+		<Exploit_Database type="dict">
+			<name type="str">Exploit Database</name>
+			<size type="int">238</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Exploit_Database>
+		<File_Manager type="dict">
+			<name type="str">File Manager</name>
+			<size type="int">4732</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</File_Manager>
+		<File_Manager_Settings type="dict">
+			<name type="str">File Manager Settings</name>
+			<size type="int">12800</size>
+			<date_modified type="str">2023-06-13 03:09:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:29</date_created>
+		</File_Manager_Settings>
+		<Firefox_ESR type="dict">
+			<name type="str">Firefox ESR</name>
+			<size type="int">3826</size>
+			<date_modified type="str">2023-08-29 17:03:46</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:13:48</date_created>
+		</Firefox_ESR>
+		<GNU_Image_Manipulation_Program type="dict">
+			<name type="str">GNU Image Manipulation Program</name>
+			<size type="int">15321</size>
+			<date_modified type="str">2023-03-01 19:34:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-05-30 03:35:31</date_created>
+		</GNU_Image_Manipulation_Program>
+		<GParted type="dict">
+			<name type="str">GParted</name>
+			<size type="int">9783</size>
+			<date_modified type="str">2023-08-10 11:39:22</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:00:12</date_created>
+		</GParted>
+		<Geoclue_Demo_agent type="dict">
+			<name type="str">Geoclue Demo agent</name>
+			<size type="int">227</size>
+			<date_modified type="str">2023-07-29 03:06:57</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 02:59:36</date_created>
+		</Geoclue_Demo_agent>
+		<GtkHash type="dict">
+			<name type="str">GtkHash</name>
+			<size type="int">4349</size>
+			<date_modified type="str">2023-03-02 22:40:40</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:33</date_created>
+		</GtkHash>
+		<Hardware_Locality_lstopo type="dict">
+			<name type="str">Hardware Locality lstopo</name>
+			<size type="int">276</size>
+			<date_modified type="str">2023-06-28 05:05:10</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:00:40</date_created>
+		</Hardware_Locality_lstopo>
+		<Help type="dict">
+			<name type="str">Help</name>
+			<size type="int">11372</size>
+			<date_modified type="str">2022-09-19 10:48:14</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Help>
+		<JetBrains_Toolbox type="dict">
+			<name type="str">JetBrains Toolbox</name>
+			<size type="int">439</size>
+			<date_modified type="str">2023-11-25 07:16:54</date_modified>
+			<owner type="int">1000</owner>
+			<group type="int">1000</group>
+			<date_created type="str">2023-11-25 07:16:54</date_created>
+		</JetBrains_Toolbox>
+		<Kali_Bugs type="dict">
+			<name type="str">Kali Bugs</name>
+			<size type="int">203</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Kali_Bugs>
+		<Kali_Docs type="dict">
+			<name type="str">Kali Docs</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Kali_Docs>
+		<Kali_Forums type="dict">
+			<name type="str">Kali Forums</name>
+			<size type="int">214</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Kali_Forums>
+		<Kali_HiDPI_Mode type="dict">
+			<name type="str">Kali HiDPI Mode</name>
+			<size type="int">275</size>
+			<date_modified type="str">2023-06-05 05:07:27</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:34:04</date_created>
+		</Kali_HiDPI_Mode>
+		<Kali_Linux type="dict">
+			<name type="str">Kali Linux</name>
+			<size type="int">211</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Kali_Linux>
+		<Kali_Tools type="dict">
+			<name type="str">Kali Tools</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Kali_Tools>
+		<Kali_Tweaks type="dict">
+			<name type="str">Kali Tweaks</name>
+			<size type="int">437</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Kali_Tweaks>
+		<Kali_Undercover_Mode type="dict">
+			<name type="str">Kali Undercover Mode</name>
+			<size type="int">201</size>
+			<date_modified type="str">2023-01-10 12:15:56</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Kali_Undercover_Mode>
+		<Keyboard type="dict">
+			<name type="str">Keyboard</name>
+			<size type="int">9947</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Keyboard>
+		<King_Phisher type="dict">
+			<name type="str">King Phisher</name>
+			<size type="int">272</size>
+			<date_modified type="str">2022-05-26 03:09:59</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</King_Phisher>
+		<key name="LightDM GTK+ Greeter settings" type="dict">
+			<name type="str">LightDM GTK+ Greeter settings</name>
+			<size type="int">2332</size>
+			<date_modified type="str">2023-01-02 19:25:17</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</key>
+		<Log_Out type="dict">
+			<name type="str">Log Out</name>
+			<size type="int">4586</size>
+			<date_modified type="str">2023-06-15 03:33:27</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:40:04</date_created>
+		</Log_Out>
+		<MATE_Calculator type="dict">
+			<name type="str">MATE Calculator</name>
+			<size type="int">15156</size>
+			<date_modified type="str">2021-12-12 17:33:51</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</MATE_Calculator>
+		<Mail_Reader type="dict">
+			<name type="str">Mail Reader</name>
+			<size type="int">4018</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Mail_Reader>
+		<Mouse_and_Touchpad type="dict">
+			<name type="str">Mouse and Touchpad</name>
+			<size type="int">12571</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Mouse_and_Touchpad>
+		<Mousepad type="dict">
+			<name type="str">Mousepad</name>
+			<size type="int">6897</size>
+			<date_modified type="str">2023-06-15 05:01:40</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:53</date_created>
+		</Mousepad>
+		<NASM_shell type="dict">
+			<name type="str">NASM shell</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</NASM_shell>
+		<NetHunter type="dict">
+			<name type="str">NetHunter</name>
+			<size type="int">239</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</NetHunter>
+		<Network type="dict">
+			<name type="str">Network</name>
+			<size type="int">5843</size>
+			<date_modified type="str">2023-07-30 17:19:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:01:10</date_created>
+		</Network>
+		<Notifications type="dict">
+			<name type="str">Notifications</name>
+			<size type="int">5867</size>
+			<date_modified type="str">2023-06-15 03:01:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:40:02</date_created>
+		</Notifications>
+		<OffSec_Training type="dict">
+			<name type="str">OffSec Training</name>
+			<size type="int">264</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</OffSec_Training>
+		<Onboard type="dict">
+			<name type="str">Onboard</name>
+			<size type="int">5179</size>
+			<date_modified type="str">2023-01-31 04:00:16</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Onboard>
+		<Onboard_Settings type="dict">
+			<name type="str">Onboard Settings</name>
+			<size type="int">8290</size>
+			<date_modified type="str">2023-01-31 04:00:16</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Onboard_Settings>
+		<OpenSC_Notify type="dict">
+			<name type="str">OpenSC Notify</name>
+			<size type="int">246</size>
+			<date_modified type="str">2023-08-27 17:54:04</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:14:13</date_created>
+		</OpenSC_Notify>
+		<Panel type="dict">
+			<name type="str">Panel</name>
+			<size type="int">12620</size>
+			<date_modified type="str">2023-06-15 03:17:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:40:03</date_created>
+		</Panel>
+		<Panel_Profiles type="dict">
+			<name type="str">Panel Profiles</name>
+			<size type="int">7843</size>
+			<date_modified type="str">2023-08-14 21:14:12</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:21</date_created>
+		</Panel_Profiles>
+		<Parole_Media_Player type="dict">
+			<name type="str">Parole Media Player</name>
+			<size type="int">10965</size>
+			<date_modified type="str">2023-06-16 03:27:54</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:51</date_created>
+		</Parole_Media_Player>
+		<Portal type="dict">
+			<name type="str">Portal</name>
+			<size type="int">667</size>
+			<date_modified type="str">2022-11-29 08:49:12</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Portal>
+		<Power_Manager type="dict">
+			<name type="str">Power Manager</name>
+			<size type="int">17299</size>
+			<date_modified type="str">2023-06-15 03:45:22</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:54</date_created>
+		</Power_Manager>
+		<PowerShell type="dict">
+			<name type="str">PowerShell</name>
+			<size type="int">250</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</PowerShell>
+		<PulseAudio_Volume_Control type="dict">
+			<name type="str">PulseAudio Volume Control</name>
+			<size type="int">11757</size>
+			<date_modified type="str">2021-08-26 08:47:26</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</PulseAudio_Volume_Control>
+		<PyCharm_Community_2023.2.5 type="dict">
+			<name type="str">PyCharm Community 2023.2.5</name>
+			<size type="int">379</size>
+			<date_modified type="str">2023-11-25 07:23:45</date_modified>
+			<owner type="int">1000</owner>
+			<group type="int">1000</group>
+			<date_created type="str">2023-11-25 07:23:45</date_created>
+		</PyCharm_Community_2023.2.5>
+		<key name="Python (v2.7)" type="dict">
+			<name type="str">Python (v2.7)</name>
+			<size type="int">220</size>
+			<date_modified type="str">2022-08-01 02:23:55</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</key>
+		<key name="Python (v3.11)" type="dict">
+			<name type="str">Python (v3.11)</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-06-07 06:13:09</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:28:29</date_created>
+		</key>
+		<QTerminal type="dict">
+			<name type="str">QTerminal</name>
+			<size type="int">5429</size>
+			<date_modified type="str">2022-12-02 13:29:51</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</QTerminal>
+		<QTerminal_drop_down type="dict">
+			<name type="str">QTerminal drop down</name>
+			<size type="int">4866</size>
+			<date_modified type="str">2022-12-02 13:29:51</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</QTerminal_drop_down>
+		<Qt5_Settings type="dict">
+			<name type="str">Qt5 Settings</name>
+			<size type="int">1762</size>
+			<date_modified type="str">2023-07-09 11:02:59</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 02:50:20</date_created>
+		</Qt5_Settings>
+		<Removable_Drives_and_Media type="dict">
+			<name type="str">Removable Drives and Media</name>
+			<size type="int">7658</size>
+			<date_modified type="str">2022-12-15 19:59:55</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Removable_Drives_and_Media>
+		<Ristretto_Image_Viewer type="dict">
+			<name type="str">Ristretto Image Viewer</name>
+			<size type="int">7367</size>
+			<date_modified type="str">2023-06-15 04:35:31</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:51</date_created>
+		</Ristretto_Image_Viewer>
+		<Root_Terminal_Emulator type="dict">
+			<name type="str">Root Terminal Emulator</name>
+			<size type="int">2449</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</Root_Terminal_Emulator>
+		<Run_Program... type="dict">
+			<name type="str">Run Program...</name>
+			<size type="int">15452</size>
+			<date_modified type="str">2022-12-15 20:09:57</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Run_Program...>
+		<SQLite_database_browser type="dict">
+			<name type="str">SQLite database browser</name>
+			<size type="int">613</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</SQLite_database_browser>
+		<Screenshot type="dict">
+			<name type="str">Screenshot</name>
+			<size type="int">7884</size>
+			<date_modified type="str">2023-06-15 04:12:18</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:54</date_created>
+		</Screenshot>
+		<Sensor_Viewer type="dict">
+			<name type="str">Sensor Viewer</name>
+			<size type="int">6601</size>
+			<date_modified type="str">2022-12-18 06:52:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Sensor_Viewer>
+		<Session_and_Startup type="dict">
+			<name type="str">Session and Startup</name>
+			<size type="int">16029</size>
+			<date_modified type="str">2023-06-15 03:33:27</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:40:04</date_created>
+		</Session_and_Startup>
+		<Settings_Editor type="dict">
+			<name type="str">Settings Editor</name>
+			<size type="int">9211</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Settings_Editor>
+		<Settings_Manager type="dict">
+			<name type="str">Settings Manager</name>
+			<size type="int">9842</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Settings_Manager>
+		<Shared_Folders type="dict">
+			<name type="str">Shared Folders</name>
+			<size type="int">11550</size>
+			<date_modified type="str">2020-12-20 15:14:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Shared_Folders>
+		<Task_Manager type="dict">
+			<name type="str">Task Manager</name>
+			<size type="int">7785</size>
+			<date_modified type="str">2022-12-17 03:50:15</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Task_Manager>
+		<TeXdoctk type="dict">
+			<name type="str">TeXdoctk</name>
+			<size type="int">139</size>
+			<date_modified type="str">2023-04-09 05:54:45</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-04-28 13:46:25</date_created>
+		</TeXdoctk>
+		<Terminal_Emulator type="dict">
+			<name type="str">Terminal Emulator</name>
+			<size type="int">4693</size>
+			<date_modified type="str">2023-07-06 12:35:02</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 03:11:22</date_created>
+		</Terminal_Emulator>
+		<Text_Editor type="dict">
+			<name type="str">Text Editor</name>
+			<size type="int">4155</size>
+			<date_modified type="str">2023-08-18 06:22:41</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 02:46:19</date_created>
+		</Text_Editor>
+		<Text_Editor_Settings type="dict">
+			<name type="str">Text Editor Settings</name>
+			<size type="int">4001</size>
+			<date_modified type="str">2023-06-15 05:01:40</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:53</date_created>
+		</Text_Editor_Settings>
+		<Thunar_File_Manager type="dict">
+			<name type="str">Thunar File Manager</name>
+			<size type="int">23937</size>
+			<date_modified type="str">2023-06-13 03:09:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:33:29</date_created>
+		</Thunar_File_Manager>
+		<Time_and_Date type="dict">
+			<name type="str">Time and Date</name>
+			<size type="int">9505</size>
+			<date_modified type="str">2020-12-20 15:14:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Time_and_Date>
+		<Users_and_Groups type="dict">
+			<name type="str">Users and Groups</name>
+			<size type="int">10207</size>
+			<date_modified type="str">2020-12-20 15:14:50</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Users_and_Groups>
+		<View_file type="dict">
+			<name type="str">View file</name>
+			<size type="int">1838</size>
+			<date_modified type="str">2023-05-25 09:07:13</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-07-10 10:32:27</date_created>
+		</View_file>
+		<Vim type="dict">
+			<name type="str">Vim</name>
+			<size type="int">5604</size>
+			<date_modified type="str">2023-07-04 09:02:26</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 02:51:43</date_created>
+		</Vim>
+		<VulnHub type="dict">
+			<name type="str">VulnHub</name>
+			<size type="int">250</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</VulnHub>
+		<Web_Browser type="dict">
+			<name type="str">Web Browser</name>
+			<size type="int">3588</size>
+			<date_modified type="str">2023-08-18 06:22:41</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-03 02:46:19</date_created>
+		</Web_Browser>
+		<Window_Manager type="dict">
+			<name type="str">Window Manager</name>
+			<size type="int">23840</size>
+			<date_modified type="str">2022-12-15 18:09:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Window_Manager>
+		<Window_Manager_Tweaks type="dict">
+			<name type="str">Window Manager Tweaks</name>
+			<size type="int">29309</size>
+			<date_modified type="str">2022-12-15 18:09:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Window_Manager_Tweaks>
+		<Workspaces type="dict">
+			<name type="str">Workspaces</name>
+			<size type="int">11716</size>
+			<date_modified type="str">2022-12-15 18:09:30</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-03-10 09:03:56</date_created>
+		</Workspaces>
+		<aircrack-ng type="dict">
+			<name type="str">aircrack-ng</name>
+			<size type="int">284</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</aircrack-ng>
+		<amass type="dict">
+			<name type="str">amass</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</amass>
+		<arping type="dict">
+			<name type="str">arping</name>
+			<size type="int">277</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</arping>
+		<key name="autopsy (root)" type="dict">
+			<name type="str">autopsy (root)</name>
+			<size type="int">241</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<binwalk type="dict">
+			<name type="str">binwalk</name>
+			<size type="int">294</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</binwalk>
+		<blkcalc type="dict">
+			<name type="str">blkcalc</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</blkcalc>
+		<blkcat type="dict">
+			<name type="str">blkcat</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</blkcat>
+		<blkls type="dict">
+			<name type="str">blkls</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</blkls>
+		<blkstat type="dict">
+			<name type="str">blkstat</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</blkstat>
+		<bulk_extractor type="dict">
+			<name type="str">bulk_extractor</name>
+			<size type="int">242</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</bulk_extractor>
+		<bully type="dict">
+			<name type="str">bully</name>
+			<size type="int">211</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</bully>
+		<burpsuite type="dict">
+			<name type="str">burpsuite</name>
+			<size type="int">249</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</burpsuite>
+		<cadaver type="dict">
+			<name type="str">cadaver</name>
+			<size type="int">241</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</cadaver>
+		<cewl type="dict">
+			<name type="str">cewl</name>
+			<size type="int">262</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</cewl>
+		<chntpw type="dict">
+			<name type="str">chntpw</name>
+			<size type="int">277</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</chntpw>
+		<clang type="dict">
+			<name type="str">clang</name>
+			<size type="int">267</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</clang>
+		<key name="clang++" type="dict">
+			<name type="str">clang++</name>
+			<size type="int">271</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<commix type="dict">
+			<name type="str">commix</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</commix>
+		<crackmapexec type="dict">
+			<name type="str">crackmapexec</name>
+			<size type="int">259</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</crackmapexec>
+		<crunch type="dict">
+			<name type="str">crunch</name>
+			<size type="int">276</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</crunch>
+		<cryptsetup type="dict">
+			<name type="str">cryptsetup</name>
+			<size type="int">223</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</cryptsetup>
+		<cutycapt type="dict">
+			<name type="str">cutycapt</name>
+			<size type="int">301</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</cutycapt>
+		<davtest type="dict">
+			<name type="str">davtest</name>
+			<size type="int">231</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</davtest>
+		<dbd type="dict">
+			<name type="str">dbd</name>
+			<size type="int">220</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dbd>
+		<dirb type="dict">
+			<name type="str">dirb</name>
+			<size type="int">233</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dirb>
+		<dirbuster type="dict">
+			<name type="str">dirbuster</name>
+			<size type="int">242</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dirbuster>
+		<dmitry type="dict">
+			<name type="str">dmitry</name>
+			<size type="int">257</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dmitry>
+		<dns2tcpc type="dict">
+			<name type="str">dns2tcpc</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dns2tcpc>
+		<dns2tcpd type="dict">
+			<name type="str">dns2tcpd</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dns2tcpd>
+		<dnschef type="dict">
+			<name type="str">dnschef</name>
+			<size type="int">247</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dnschef>
+		<dnsenum type="dict">
+			<name type="str">dnsenum</name>
+			<size type="int">325</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dnsenum>
+		<dnsrecon type="dict">
+			<name type="str">dnsrecon</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</dnsrecon>
+		<enum4linux type="dict">
+			<name type="str">enum4linux</name>
+			<size type="int">229</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</enum4linux>
+		<ettercap-graphical type="dict">
+			<name type="str">ettercap-graphical</name>
+			<size type="int">217</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ettercap-graphical>
+		<evil-winrm type="dict">
+			<name type="str">evil-winrm</name>
+			<size type="int">251</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</evil-winrm>
+		<exe2hex type="dict">
+			<name type="str">exe2hex</name>
+			<size type="int">242</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</exe2hex>
+		<faraday_start type="dict">
+			<name type="str">faraday start</name>
+			<size type="int">251</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</faraday_start>
+		<faraday_stop type="dict">
+			<name type="str">faraday stop</name>
+			<size type="int">363</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</faraday_stop>
+		<key name="fern wifi cracker (root)" type="dict">
+			<name type="str">fern wifi cracker (root)</name>
+			<size type="int">257</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<ffind type="dict">
+			<name type="str">ffind</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ffind>
+		<ffuf type="dict">
+			<name type="str">ffuf</name>
+			<size type="int">246</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ffuf>
+		<fierce type="dict">
+			<name type="str">fierce</name>
+			<size type="int">319</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</fierce>
+		<fls type="dict">
+			<name type="str">fls</name>
+			<size type="int">210</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</fls>
+		<fping type="dict">
+			<name type="str">fping</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</fping>
+		<fsstat type="dict">
+			<name type="str">fsstat</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</fsstat>
+		<key name="guymager (root)" type="dict">
+			<name type="str">guymager (root)</name>
+			<size type="int">260</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<hash-identifier type="dict">
+			<name type="str">hash-identifier</name>
+			<size type="int">215</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hash-identifier>
+		<hashcat type="dict">
+			<name type="str">hashcat</name>
+			<size type="int">247</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hashcat>
+		<hashdeep type="dict">
+			<name type="str">hashdeep</name>
+			<size type="int">218</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hashdeep>
+		<hashid type="dict">
+			<name type="str">hashid</name>
+			<size type="int">287</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hashid>
+		<hfind type="dict">
+			<name type="str">hfind</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hfind>
+		<hping3 type="dict">
+			<name type="str">hping3</name>
+			<size type="int">287</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hping3>
+		<hydra type="dict">
+			<name type="str">hydra</name>
+			<size type="int">448</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hydra>
+		<hydra-graphical type="dict">
+			<name type="str">hydra-graphical</name>
+			<size type="int">212</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</hydra-graphical>
+		<icat-sleuthkit type="dict">
+			<name type="str">icat-sleuthkit</name>
+			<size type="int">235</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</icat-sleuthkit>
+		<ifind type="dict">
+			<name type="str">ifind</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ifind>
+		<ike-scan type="dict">
+			<name type="str">ike-scan</name>
+			<size type="int">286</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ike-scan>
+		<ils-sleuthkit type="dict">
+			<name type="str">ils-sleuthkit</name>
+			<size type="int">232</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ils-sleuthkit>
+		<img_cat type="dict">
+			<name type="str">img_cat</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</img_cat>
+		<img_stat type="dict">
+			<name type="str">img_stat</name>
+			<size type="int">225</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</img_stat>
+		<impacket type="dict">
+			<name type="str">impacket</name>
+			<size type="int">296</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</impacket>
+		<iodine type="dict">
+			<name type="str">iodine</name>
+			<size type="int">255</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</iodine>
+		<istat type="dict">
+			<name type="str">istat</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</istat>
+		<jcat type="dict">
+			<name type="str">jcat</name>
+			<size type="int">213</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</jcat>
+		<jls type="dict">
+			<name type="str">jls</name>
+			<size type="int">210</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</jls>
+		<john type="dict">
+			<name type="str">john</name>
+			<size type="int">228</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</john>
+		<kismet type="dict">
+			<name type="str">kismet</name>
+			<size type="int">217</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</kismet>
+		<laudanum type="dict">
+			<name type="str">laudanum</name>
+			<size type="int">185</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</laudanum>
+		<lbd type="dict">
+			<name type="str">lbd</name>
+			<size type="int">211</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</lbd>
+		<key name="legion (root)" type="dict">
+			<name type="str">legion (root)</name>
+			<size type="int">241</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<lynis type="dict">
+			<name type="str">lynis</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</lynis>
+		<macchanger type="dict">
+			<name type="str">macchanger</name>
+			<size type="int">254</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</macchanger>
+		<mactime-sleuthkit type="dict">
+			<name type="str">mactime-sleuthkit</name>
+			<size type="int">244</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</mactime-sleuthkit>
+		<magicrescue type="dict">
+			<name type="str">magicrescue</name>
+			<size type="int">329</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</magicrescue>
+		<key name="maltego (installer)" type="dict">
+			<name type="str">maltego (installer)</name>
+			<size type="int">362</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<masscan type="dict">
+			<name type="str">masscan</name>
+			<size type="int">254</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</masscan>
+		<medusa type="dict">
+			<name type="str">medusa</name>
+			<size type="int">238</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</medusa>
+		<metasploit_framework type="dict">
+			<name type="str">metasploit framework</name>
+			<size type="int">281</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</metasploit_framework>
+		<mimikatz type="dict">
+			<name type="str">mimikatz</name>
+			<size type="int">203</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</mimikatz>
+		<minicom type="dict">
+			<name type="str">minicom</name>
+			<size type="int">280</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</minicom>
+		<miredo type="dict">
+			<name type="str">miredo</name>
+			<size type="int">252</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</miredo>
+		<mitmproxy type="dict">
+			<name type="str">mitmproxy</name>
+			<size type="int">230</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</mitmproxy>
+		<mmcat type="dict">
+			<name type="str">mmcat</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</mmcat>
+		<mmls type="dict">
+			<name type="str">mmls</name>
+			<size type="int">213</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</mmls>
+		<mmstat type="dict">
+			<name type="str">mmstat</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</mmstat>
+		<msf_payload_creator type="dict">
+			<name type="str">msf payload creator</name>
+			<size type="int">254</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</msf_payload_creator>
+		<nbtscan type="dict">
+			<name type="str">nbtscan</name>
+			<size type="int">271</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</nbtscan>
+		<ncrack type="dict">
+			<name type="str">ncrack</name>
+			<size type="int">283</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ncrack>
+		<netcat type="dict">
+			<name type="str">netcat</name>
+			<size type="int">289</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</netcat>
+		<netdiscover type="dict">
+			<name type="str">netdiscover</name>
+			<size type="int">303</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</netdiscover>
+		<netmask type="dict">
+			<name type="str">netmask</name>
+			<size type="int">274</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</netmask>
+		<netsniff-ng type="dict">
+			<name type="str">netsniff-ng</name>
+			<size type="int">307</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</netsniff-ng>
+		<nikto type="dict">
+			<name type="str">nikto</name>
+			<size type="int">252</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</nikto>
+		<nmap type="dict">
+			<name type="str">nmap</name>
+			<size type="int">314</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</nmap>
+		<onesixtyone type="dict">
+			<name type="str">onesixtyone</name>
+			<size type="int">292</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</onesixtyone>
+		<ophcrack type="dict">
+			<name type="str">ophcrack</name>
+			<size type="int">186</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ophcrack>
+		<ophcrack-cli type="dict">
+			<name type="str">ophcrack-cli</name>
+			<size type="int">303</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ophcrack-cli>
+		<patator type="dict">
+			<name type="str">patator</name>
+			<size type="int">257</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</patator>
+		<pdf-parser type="dict">
+			<name type="str">pdf-parser</name>
+			<size type="int">239</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pdf-parser>
+		<pdfid type="dict">
+			<name type="str">pdfid</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pdfid>
+		<pipal type="dict">
+			<name type="str">pipal</name>
+			<size type="int">206</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pipal>
+		<pixiewps type="dict">
+			<name type="str">pixiewps</name>
+			<size type="int">279</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pixiewps>
+		<powershell_empire type="dict">
+			<name type="str">powershell empire</name>
+			<size type="int">268</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</powershell_empire>
+		<powersploit type="dict">
+			<name type="str">powersploit</name>
+			<size type="int">218</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</powersploit>
+		<proxychains4 type="dict">
+			<name type="str">proxychains4</name>
+			<size type="int">306</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</proxychains4>
+		<proxytunnel type="dict">
+			<name type="str">proxytunnel</name>
+			<size type="int">303</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</proxytunnel>
+		<pth-curl type="dict">
+			<name type="str">pth-curl</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-curl>
+		<pth-net type="dict">
+			<name type="str">pth-net</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-net>
+		<pth-rpcclient type="dict">
+			<name type="str">pth-rpcclient</name>
+			<size type="int">234</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-rpcclient>
+		<pth-smbclient type="dict">
+			<name type="str">pth-smbclient</name>
+			<size type="int">234</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-smbclient>
+		<pth-smbget type="dict">
+			<name type="str">pth-smbget</name>
+			<size type="int">232</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-smbget>
+		<pth-sqsh type="dict">
+			<name type="str">pth-sqsh</name>
+			<size type="int">228</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-sqsh>
+		<pth-winexe type="dict">
+			<name type="str">pth-winexe</name>
+			<size type="int">228</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-winexe>
+		<pth-wmic type="dict">
+			<name type="str">pth-wmic</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-wmic>
+		<pth-wmis type="dict">
+			<name type="str">pth-wmis</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-wmis>
+		<pth-xfreerdp type="dict">
+			<name type="str">pth-xfreerdp</name>
+			<size type="int">221</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pth-xfreerdp>
+		<ptunnel type="dict">
+			<name type="str">ptunnel</name>
+			<size type="int">286</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ptunnel>
+		<pwnat type="dict">
+			<name type="str">pwnat</name>
+			<size type="int">209</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</pwnat>
+		<radare2 type="dict">
+			<name type="str">radare2</name>
+			<size type="int">295</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</radare2>
+		<reaver type="dict">
+			<name type="str">reaver</name>
+			<size type="int">237</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</reaver>
+		<rebind type="dict">
+			<name type="str">rebind</name>
+			<size type="int">221</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</rebind>
+		<recon-ng type="dict">
+			<name type="str">recon-ng</name>
+			<size type="int">220</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</recon-ng>
+		<recordmydesktop type="dict">
+			<name type="str">recordmydesktop</name>
+			<size type="int">308</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</recordmydesktop>
+		<responder type="dict">
+			<name type="str">responder</name>
+			<size type="int">230</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</responder>
+		<rsmangler type="dict">
+			<name type="str">rsmangler</name>
+			<size type="int">223</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</rsmangler>
+		<samdump2 type="dict">
+			<name type="str">samdump2</name>
+			<size type="int">227</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</samdump2>
+		<sbd type="dict">
+			<name type="str">sbd</name>
+			<size type="int">204</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sbd>
+		<scalpel type="dict">
+			<name type="str">scalpel</name>
+			<size type="int">283</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</scalpel>
+		<scapy type="dict">
+			<name type="str">scapy</name>
+			<size type="int">227</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</scapy>
+		<scrounge-ntfs type="dict">
+			<name type="str">scrounge-ntfs</name>
+			<size type="int">325</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</scrounge-ntfs>
+		<searchsploit type="dict">
+			<name type="str">searchsploit</name>
+			<size type="int">250</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</searchsploit>
+		<sigfind type="dict">
+			<name type="str">sigfind</name>
+			<size type="int">222</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sigfind>
+		<skipfish type="dict">
+			<name type="str">skipfish</name>
+			<size type="int">298</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</skipfish>
+		<smbmap type="dict">
+			<name type="str">smbmap</name>
+			<size type="int">232</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</smbmap>
+		<snmp-check type="dict">
+			<name type="str">snmp-check</name>
+			<size type="int">264</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</snmp-check>
+		<key name="social engineering toolkit (root)" type="dict">
+			<name type="str">social engineering toolkit (root)</name>
+			<size type="int">236</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</key>
+		<sorter type="dict">
+			<name type="str">sorter</name>
+			<size type="int">219</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sorter>
+		<spiderfoot type="dict">
+			<name type="str">spiderfoot</name>
+			<size type="int">269</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spiderfoot>
+		<spiderfoot-cli type="dict">
+			<name type="str">spiderfoot-cli</name>
+			<size type="int">259</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spiderfoot-cli>
+		<spike-generic_chunked type="dict">
+			<name type="str">spike-generic_chunked</name>
+			<size type="int">230</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spike-generic_chunked>
+		<spike-generic_listen_tcp type="dict">
+			<name type="str">spike-generic_listen_tcp</name>
+			<size type="int">236</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spike-generic_listen_tcp>
+		<spike-generic_send_tcp type="dict">
+			<name type="str">spike-generic_send_tcp</name>
+			<size type="int">232</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spike-generic_send_tcp>
+		<spike-generic_send_udp type="dict">
+			<name type="str">spike-generic_send_udp</name>
+			<size type="int">232</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spike-generic_send_udp>
+		<spooftooph type="dict">
+			<name type="str">spooftooph</name>
+			<size type="int">235</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</spooftooph>
+		<sqlmap type="dict">
+			<name type="str">sqlmap</name>
+			<size type="int">304</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sqlmap>
+		<srch_strings type="dict">
+			<name type="str">srch_strings</name>
+			<size type="int">239</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</srch_strings>
+		<ssldump type="dict">
+			<name type="str">ssldump</name>
+			<size type="int">258</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</ssldump>
+		<sslh type="dict">
+			<name type="str">sslh</name>
+			<size type="int">255</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sslh>
+		<sslscan type="dict">
+			<name type="str">sslscan</name>
+			<size type="int">246</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sslscan>
+		<sslsplit type="dict">
+			<name type="str">sslsplit</name>
+			<size type="int">269</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sslsplit>
+		<sslyze type="dict">
+			<name type="str">sslyze</name>
+			<size type="int">216</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</sslyze>
+		<starkiller type="dict">
+			<name type="str">starkiller</name>
+			<size type="int">260</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</starkiller>
+		<stunnel4 type="dict">
+			<name type="str">stunnel4</name>
+			<size type="int">224</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</stunnel4>
+		<swaks type="dict">
+			<name type="str">swaks</name>
+			<size type="int">180</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</swaks>
+		<tcpdump type="dict">
+			<name type="str">tcpdump</name>
+			<size type="int">256</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</tcpdump>
+		<tcpreplay type="dict">
+			<name type="str">tcpreplay</name>
+			<size type="int">284</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</tcpreplay>
+		<thc-pptp-bruter type="dict">
+			<name type="str">thc-pptp-bruter</name>
+			<size type="int">251</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</thc-pptp-bruter>
+		<thcping6 type="dict">
+			<name type="str">thcping6</name>
+			<size type="int">233</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</thcping6>
+		<theharvester type="dict">
+			<name type="str">theharvester</name>
+			<size type="int">242</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</theharvester>
+		<tsk_comparedir type="dict">
+			<name type="str">tsk_comparedir</name>
+			<size type="int">243</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</tsk_comparedir>
+		<tsk_gettimes type="dict">
+			<name type="str">tsk_gettimes</name>
+			<size type="int">240</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</tsk_gettimes>
+		<tsk_loaddb type="dict">
+			<name type="str">tsk_loaddb</name>
+			<size type="int">231</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</tsk_loaddb>
+		<tsk_recover type="dict">
+			<name type="str">tsk_recover</name>
+			<size type="int">234</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</tsk_recover>
+		<udptunnel type="dict">
+			<name type="str">udptunnel</name>
+			<size type="int">225</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</udptunnel>
+		<unix-privesc-check type="dict">
+			<name type="str">unix-privesc-check</name>
+			<size type="int">268</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</unix-privesc-check>
+		<voiphopper type="dict">
+			<name type="str">voiphopper</name>
+			<size type="int">227</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</voiphopper>
+		<wafw00f type="dict">
+			<name type="str">wafw00f</name>
+			<size type="int">297</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wafw00f>
+		<wapiti type="dict">
+			<name type="str">wapiti</name>
+			<size type="int">301</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wapiti>
+		<webshells type="dict">
+			<name type="str">webshells</name>
+			<size type="int">188</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</webshells>
+		<weevely type="dict">
+			<name type="str">weevely</name>
+			<size type="int">281</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</weevely>
+		<wfuzz type="dict">
+			<name type="str">wfuzz</name>
+			<size type="int">247</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wfuzz>
+		<whatweb type="dict">
+			<name type="str">whatweb</name>
+			<size type="int">234</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</whatweb>
+		<wifite type="dict">
+			<name type="str">wifite</name>
+			<size type="int">297</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wifite>
+		<wireshark type="dict">
+			<name type="str">wireshark</name>
+			<size type="int">767</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wireshark>
+		<wordlists type="dict">
+			<name type="str">wordlists</name>
+			<size type="int">203</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wordlists>
+		<wpscan type="dict">
+			<name type="str">wpscan</name>
+			<size type="int">313</size>
+			<date_modified type="str">2023-09-07 05:17:38</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-09-07 05:17:38</date_created>
+		</wpscan>
+		<wxHexEditor type="dict">
+			<name type="str">wxHexEditor</name>
+			<size type="int">343</size>
+			<date_modified type="str">2022-12-27 20:23:22</date_modified>
+			<owner type="int">0</owner>
+			<group type="int">0</group>
+			<date_created type="str">2023-05-30 03:29:19</date_created>
+		</wxHexEditor>
+	</Приложения>
+</all>

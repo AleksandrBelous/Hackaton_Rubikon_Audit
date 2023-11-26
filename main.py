@@ -1,57 +1,16 @@
 import flet as ft
 import report
-import paramiko
-
-
-# import paramiko
-#
-#
-# def execute_remote_command(remote_host, remote_user, remote_password, command):
-#     # Создаем SSH-клиент
-#     ssh = paramiko.SSHClient()
-#
-#     # Настраиваем автоматическое подтверждение ключей хоста (обычно используется при подключении впервые)
-#     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-#
-#     try:
-#         # Подключаемся к удаленному хосту
-#         ssh.connect(remote_host, username=remote_user, password=remote_password)
-#
-#         # Выполняем команду на удаленной машине
-#         stdin, stdout, stderr = ssh.exec_command(command)
-#
-#         # Получаем вывод выполненной команды
-#         result = stdout.read().decode('utf-8')
-#         return result
-#
-#     except Exception as e:
-#         return f"Ошибка: {e}"
-#     finally:
-#         # Закрываем соединение
-#         ssh.close()
-#
-#
-# if __name__ == "__main__":
-#     # Получаем параметры от пользователя (админа)
-#     remote_host = input("Введите IP-адрес удаленного хоста: ")
-#     remote_user = input("Введите имя пользователя на удаленном хосте: ")
-#     remote_password = input("Введите пароль для подключения к удаленному хосту: ")
-#     command_to_execute = input("Введите команду для выполнения на удаленном хосте: ")
-#
-#     # Выполняем команду на удаленном хосте
-#     result = execute_remote_command(remote_host, remote_user, remote_password, command_to_execute)
-#
-#     # Выводим результат выполнения команды
-#     print(f"Результат выполнения команды на удаленном хосте:\n{result}")
 
 
 def main(page: ft.Page):
+    page.clean()
     page.title = 'Total Scan'
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.scroll = 'always'
 
     possibilities = [
         "Общие данные о системе",
+        "Данные из dmi/id",
         "Системное время",
         "Пользователи",
         "Ядра ОС",
@@ -79,7 +38,6 @@ def main(page: ft.Page):
             keys.add(box.control.label)
         else:
             keys.remove(box.control.label)
-        print(keys)
         page.update()
 
     def start_button_clicked(_):

@@ -1,6 +1,2351 @@
 {
+  "Общие данные о системе": {
+    "Architecture": "64bit",
+    "Machine": "x86_64",
+    "OS Release": "6.1.0-kali9-amd64",
+    "OS Name": "Linux",
+    "OS Version": "#1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1kali1 (2023-05-12)",
+    "Host name": "kali",
+    "Platform": "Linux-6.1.0-kali9-amd64-x86_64-with-glibc2.37",
+    "Processor": ""
+  },
+  "Данные из dmi/id": {
+    "bios_date": "12/01/2006",
+    "product_name": "VirtualBox",
+    "sys_vendor": "innotek GmbH",
+    "bios_version": "VirtualBox",
+    "product_version": "1.2",
+    "board_vendor": "Oracle Corporation",
+    "product_sku": "",
+    "product_family": "Virtual Machine",
+    "bios_vendor": "innotek GmbH",
+    "board_asset_tag": "",
+    "board_version": "1.2",
+    "board_name": "VirtualBox"
+  },
   "Системное время": {
     "System Boot Time": "2023-11-25 23:59:32",
-    "System Uptime": "2:10 hours"
+    "System Uptime": "3:18 hours"
+  },
+  "Пользователи": {
+    "kali": {
+      "name": "kali",
+      "terminal": "tty7",
+      "host": "localhost",
+      "started": "1700974976.0 seconds since the epoch",
+      "pid": 992
+    }
+  },
+  "Ядра ОС": {
+    "Number of Physical cores": 2,
+    "Number of Total cores": 2,
+    "Max Frequency": "0.00Mhz",
+    "Min Frequency": "0.00Mhz",
+    "Current Frequency": "2304.00Mhz",
+    "CPU Usage of Core 0": "34.0%",
+    "CPU Usage of Core 1": "38.4%",
+    "Total CPU Usage": "50.1%"
+  },
+  "Процессоры": {
+    "Processor 0": " Intel(R) Pentium(R) CPU 4417U @ 2.30GHz",
+    "Processor 1": " Intel(R) Pentium(R) CPU 4417U @ 2.30GHz"
+  },
+  "HDD/SSD устройства": {
+    "udev": {
+      "Partition Device": "udev",
+      "File System": "devtmpfs",
+      "Options": "rw",
+      "Mount point": "/dev",
+      "Total Disk Space": "3.84 GB",
+      "Free Disk Space": "3.84 GB",
+      "Used Disk Space": "0.0 GB",
+      "Percentage Used": "0.0 %"
+    },
+    "tmpfs": {
+      "Partition Device": "tmpfs",
+      "File System": "tmpfs",
+      "Options": "rw",
+      "Mount point": "/run/user/1000",
+      "Total Disk Space": "0.78 GB",
+      "Free Disk Space": "0.78 GB",
+      "Used Disk Space": "0.0 GB",
+      "Percentage Used": "0.0 %"
+    },
+    "/dev/sda1": {
+      "Partition Device": "/dev/sda1",
+      "File System": "ext4",
+      "Options": "rw",
+      "Mount point": "/",
+      "Total Disk Space": "78.28 GB",
+      "Free Disk Space": "53.97 GB",
+      "Used Disk Space": "20.29 GB",
+      "Percentage Used": "27.3 %"
+    },
+    "Desktop": {
+      "Partition Device": "Desktop",
+      "File System": "vboxsf",
+      "Options": "rw",
+      "Mount point": "/media/files",
+      "Total Disk Space": "464.71 GB",
+      "Free Disk Space": "36.37 GB",
+      "Used Disk Space": "428.34 GB",
+      "Percentage Used": "92.2 %"
+    }
+  },
+  "CD/DVD устройства": {},
+  "USB устройства": {
+    "usb 1": {
+      "id": "80ee:0021",
+      "tag": "VirtualBox USB Tablet",
+      "device": "/dev/bus/usb/001/002"
+    },
+    "usb 2": {
+      "id": "1d6b:0001",
+      "tag": "Linux Foundation 1.1 root hub",
+      "device": "/dev/bus/usb/001/001"
+    }
+  },
+  "Данные о GPU": {
+    "GPU Information": {
+      "00:02.0 VGA compatible controller": "VMware SVGA II Adapter (prog-if 00 [VGA controller])",
+      "Subsystem": "VMware SVGA II Adapter",
+      "Flags": "bus master, fast devsel, latency 64, IRQ 18",
+      "1": "I/O ports at d010 [size=16]",
+      "2": "Memory at e0000000 (32-bit, prefetchable) [size=128M]",
+      "3": "Memory at f0000000 (32-bit, non-prefetchable) [size=2M]",
+      "4": "Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]",
+      "Kernel driver in use": "vmwgfx",
+      "Kernel modules": "vmwgfx"
+    }
+  },
+  "Данные о RAM памяти": {
+    "Total Memory present": "7.76 Gb",
+    "Total Memory Available": "4.51 Gb",
+    "Total Memory Used": "2.92 Gb",
+    "Percentage Total Memory Used": "41.8 %",
+    "Total swap memory": 1.0,
+    "Free swap memory": 1.0,
+    "Used swap memory": 0.0,
+    "Percentage Swap Used": "0.0 %"
+  },
+  "Сетевые настройки": {
+    "lo": {
+      "1": {
+        "Address": "127.0.0.1",
+        "Netmask": "255.0.0.0",
+        "Broadcast": null,
+        "point to point": null
+      },
+      "2": {
+        "Address": "::1",
+        "Netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "Broadcast": null,
+        "point to point": null
+      },
+      "3": {
+        "Address": "00:00:00:00:00:00",
+        "Netmask": null,
+        "Broadcast": null,
+        "point to point": null
+      }
+    },
+    "eth0": {
+      "1": {
+        "Address": "192.168.0.132",
+        "Netmask": "255.255.255.0",
+        "Broadcast": "192.168.0.255",
+        "point to point": null
+      },
+      "2": {
+        "Address": "fd01::c947:81f7:b0e2:ad63",
+        "Netmask": "ffff:ffff:ffff:ffff::",
+        "Broadcast": null,
+        "point to point": null
+      },
+      "3": {
+        "Address": "fe80::3fa5:ec5c:67c2:6995%eth0",
+        "Netmask": "ffff:ffff:ffff:ffff::",
+        "Broadcast": null,
+        "point to point": null
+      },
+      "4": {
+        "Address": "08:00:27:23:91:da",
+        "Netmask": null,
+        "Broadcast": "ff:ff:ff:ff:ff:ff",
+        "point to point": null
+      }
+    },
+    "Total Bytes Sent": "0.0 GB",
+    "Total Bytes Received": "0.07 GB"
+  },
+  "Приложения": {
+    "About Xfce": {
+      "name": "About Xfce",
+      "size": 5328,
+      "date_modified": "2023-06-13 01:58:25",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:38:23"
+    },
+    "Access Prompt": {
+      "name": "Access Prompt",
+      "size": 6460,
+      "date_modified": "2023-05-25 09:07:13",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:32:27"
+    },
+    "Accessibility": {
+      "name": "Accessibility",
+      "size": 13812,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Advanced Network Configuration": {
+      "name": "Advanced Network Configuration",
+      "size": 8413,
+      "date_modified": "2023-07-30 17:19:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:01:10"
+    },
+    "Appearance": {
+      "name": "Appearance",
+      "size": 17558,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Application Finder": {
+      "name": "Application Finder",
+      "size": 10499,
+      "date_modified": "2022-12-15 20:09:57",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Atril Document Viewer": {
+      "name": "Atril Document Viewer",
+      "size": 14114,
+      "date_modified": "2023-01-13 01:52:14",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Audacity": {
+      "name": "Audacity",
+      "size": 2909,
+      "date_modified": "2023-06-16 16:34:40",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:29:23"
+    },
+    "Bluetooth Adapters": {
+      "name": "Bluetooth Adapters",
+      "size": 3651,
+      "date_modified": "2023-08-20 02:22:00",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:13:20"
+    },
+    "Bluetooth Manager": {
+      "name": "Bluetooth Manager",
+      "size": 2524,
+      "date_modified": "2023-08-20 02:22:00",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:13:20"
+    },
+    "Bulk Rename": {
+      "name": "Bulk Rename",
+      "size": 12719,
+      "date_modified": "2023-06-13 03:09:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:29"
+    },
+    "CherryTree": {
+      "name": "CherryTree",
+      "size": 1321,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Clipboard Manager": {
+      "name": "Clipboard Manager",
+      "size": 4510,
+      "date_modified": "2023-08-09 19:34:10",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:19"
+    },
+    "Clipboard Manager Settings": {
+      "name": "Clipboard Manager Settings",
+      "size": 4349,
+      "date_modified": "2023-08-09 19:34:10",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:19"
+    },
+    "Color Profiles": {
+      "name": "Color Profiles",
+      "size": 8880,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Create Launcher on the panel": {
+      "name": "Create Launcher on the panel",
+      "size": 9026,
+      "date_modified": "2023-06-15 03:17:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:40:03"
+    },
+    "Default Applications": {
+      "name": "Default Applications",
+      "size": 12737,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Desktop": {
+      "name": "Desktop",
+      "size": 7469,
+      "date_modified": "2023-01-30 04:19:21",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Display": {
+      "name": "Display",
+      "size": 12398,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Engrampa Archive Manager": {
+      "name": "Engrampa Archive Manager",
+      "size": 15711,
+      "date_modified": "2021-12-12 10:00:52",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Exploit Database": {
+      "name": "Exploit Database",
+      "size": 238,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "File Manager": {
+      "name": "File Manager",
+      "size": 4732,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "File Manager Settings": {
+      "name": "File Manager Settings",
+      "size": 12800,
+      "date_modified": "2023-06-13 03:09:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:29"
+    },
+    "Firefox ESR": {
+      "name": "Firefox ESR",
+      "size": 3826,
+      "date_modified": "2023-08-29 17:03:46",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:13:48"
+    },
+    "GNU Image Manipulation Program": {
+      "name": "GNU Image Manipulation Program",
+      "size": 15321,
+      "date_modified": "2023-03-01 19:34:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-05-30 03:35:31"
+    },
+    "GParted": {
+      "name": "GParted",
+      "size": 9783,
+      "date_modified": "2023-08-10 11:39:22",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:00:12"
+    },
+    "Geoclue Demo agent": {
+      "name": "Geoclue Demo agent",
+      "size": 227,
+      "date_modified": "2023-07-29 03:06:57",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 02:59:36"
+    },
+    "GtkHash": {
+      "name": "GtkHash",
+      "size": 4349,
+      "date_modified": "2023-03-02 22:40:40",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:33"
+    },
+    "Hardware Locality lstopo": {
+      "name": "Hardware Locality lstopo",
+      "size": 276,
+      "date_modified": "2023-06-28 05:05:10",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:00:40"
+    },
+    "Help": {
+      "name": "Help",
+      "size": 11372,
+      "date_modified": "2022-09-19 10:48:14",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "JetBrains Toolbox": {
+      "name": "JetBrains Toolbox",
+      "size": 439,
+      "date_modified": "2023-11-25 07:16:54",
+      "owner": 1000,
+      "group": 1000,
+      "date_created": "2023-11-25 07:16:54"
+    },
+    "Kali Bugs": {
+      "name": "Kali Bugs",
+      "size": 203,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Kali Docs": {
+      "name": "Kali Docs",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Kali Forums": {
+      "name": "Kali Forums",
+      "size": 214,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Kali HiDPI Mode": {
+      "name": "Kali HiDPI Mode",
+      "size": 275,
+      "date_modified": "2023-06-05 05:07:27",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:34:04"
+    },
+    "Kali Linux": {
+      "name": "Kali Linux",
+      "size": 211,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Kali Tools": {
+      "name": "Kali Tools",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Kali Tweaks": {
+      "name": "Kali Tweaks",
+      "size": 437,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Kali Undercover Mode": {
+      "name": "Kali Undercover Mode",
+      "size": 201,
+      "date_modified": "2023-01-10 12:15:56",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Keyboard": {
+      "name": "Keyboard",
+      "size": 9947,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "King Phisher": {
+      "name": "King Phisher",
+      "size": 272,
+      "date_modified": "2022-05-26 03:09:59",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "LightDM GTK+ Greeter settings": {
+      "name": "LightDM GTK+ Greeter settings",
+      "size": 2332,
+      "date_modified": "2023-01-02 19:25:17",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Log Out": {
+      "name": "Log Out",
+      "size": 4586,
+      "date_modified": "2023-06-15 03:33:27",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:40:04"
+    },
+    "MATE Calculator": {
+      "name": "MATE Calculator",
+      "size": 15156,
+      "date_modified": "2021-12-12 17:33:51",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Mail Reader": {
+      "name": "Mail Reader",
+      "size": 4018,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Mouse and Touchpad": {
+      "name": "Mouse and Touchpad",
+      "size": 12571,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Mousepad": {
+      "name": "Mousepad",
+      "size": 6897,
+      "date_modified": "2023-06-15 05:01:40",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:53"
+    },
+    "NASM shell": {
+      "name": "NASM shell",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "NetHunter": {
+      "name": "NetHunter",
+      "size": 239,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Network": {
+      "name": "Network",
+      "size": 5843,
+      "date_modified": "2023-07-30 17:19:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:01:10"
+    },
+    "Notifications": {
+      "name": "Notifications",
+      "size": 5867,
+      "date_modified": "2023-06-15 03:01:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:40:02"
+    },
+    "OffSec Training": {
+      "name": "OffSec Training",
+      "size": 264,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Onboard": {
+      "name": "Onboard",
+      "size": 5179,
+      "date_modified": "2023-01-31 04:00:16",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Onboard Settings": {
+      "name": "Onboard Settings",
+      "size": 8290,
+      "date_modified": "2023-01-31 04:00:16",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "OpenSC Notify": {
+      "name": "OpenSC Notify",
+      "size": 246,
+      "date_modified": "2023-08-27 17:54:04",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:14:13"
+    },
+    "Panel": {
+      "name": "Panel",
+      "size": 12620,
+      "date_modified": "2023-06-15 03:17:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:40:03"
+    },
+    "Panel Profiles": {
+      "name": "Panel Profiles",
+      "size": 7843,
+      "date_modified": "2023-08-14 21:14:12",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:21"
+    },
+    "Parole Media Player": {
+      "name": "Parole Media Player",
+      "size": 10965,
+      "date_modified": "2023-06-16 03:27:54",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:51"
+    },
+    "Portal": {
+      "name": "Portal",
+      "size": 667,
+      "date_modified": "2022-11-29 08:49:12",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Power Manager": {
+      "name": "Power Manager",
+      "size": 17299,
+      "date_modified": "2023-06-15 03:45:22",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:54"
+    },
+    "PowerShell": {
+      "name": "PowerShell",
+      "size": 250,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "PulseAudio Volume Control": {
+      "name": "PulseAudio Volume Control",
+      "size": 11757,
+      "date_modified": "2021-08-26 08:47:26",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "PyCharm Community 2023.2.5": {
+      "name": "PyCharm Community 2023.2.5",
+      "size": 379,
+      "date_modified": "2023-11-25 07:23:45",
+      "owner": 1000,
+      "group": 1000,
+      "date_created": "2023-11-25 07:23:45"
+    },
+    "Python (v2.7)": {
+      "name": "Python (v2.7)",
+      "size": 220,
+      "date_modified": "2022-08-01 02:23:55",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Python (v3.11)": {
+      "name": "Python (v3.11)",
+      "size": 224,
+      "date_modified": "2023-06-07 06:13:09",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:28:29"
+    },
+    "QTerminal": {
+      "name": "QTerminal",
+      "size": 5429,
+      "date_modified": "2022-12-02 13:29:51",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "QTerminal drop down": {
+      "name": "QTerminal drop down",
+      "size": 4866,
+      "date_modified": "2022-12-02 13:29:51",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Qt5 Settings": {
+      "name": "Qt5 Settings",
+      "size": 1762,
+      "date_modified": "2023-07-09 11:02:59",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 02:50:20"
+    },
+    "Removable Drives and Media": {
+      "name": "Removable Drives and Media",
+      "size": 7658,
+      "date_modified": "2022-12-15 19:59:55",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Ristretto Image Viewer": {
+      "name": "Ristretto Image Viewer",
+      "size": 7367,
+      "date_modified": "2023-06-15 04:35:31",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:51"
+    },
+    "Root Terminal Emulator": {
+      "name": "Root Terminal Emulator",
+      "size": 2449,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Run Program...": {
+      "name": "Run Program...",
+      "size": 15452,
+      "date_modified": "2022-12-15 20:09:57",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "SQLite database browser": {
+      "name": "SQLite database browser",
+      "size": 613,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Screenshot": {
+      "name": "Screenshot",
+      "size": 7884,
+      "date_modified": "2023-06-15 04:12:18",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:54"
+    },
+    "Sensor Viewer": {
+      "name": "Sensor Viewer",
+      "size": 6601,
+      "date_modified": "2022-12-18 06:52:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Session and Startup": {
+      "name": "Session and Startup",
+      "size": 16029,
+      "date_modified": "2023-06-15 03:33:27",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:40:04"
+    },
+    "Settings Editor": {
+      "name": "Settings Editor",
+      "size": 9211,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Settings Manager": {
+      "name": "Settings Manager",
+      "size": 9842,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Shared Folders": {
+      "name": "Shared Folders",
+      "size": 11550,
+      "date_modified": "2020-12-20 15:14:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Task Manager": {
+      "name": "Task Manager",
+      "size": 7785,
+      "date_modified": "2022-12-17 03:50:15",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "TeXdoctk": {
+      "name": "TeXdoctk",
+      "size": 139,
+      "date_modified": "2023-04-09 05:54:45",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-04-28 13:46:25"
+    },
+    "Terminal Emulator": {
+      "name": "Terminal Emulator",
+      "size": 4693,
+      "date_modified": "2023-07-06 12:35:02",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 03:11:22"
+    },
+    "Text Editor": {
+      "name": "Text Editor",
+      "size": 4155,
+      "date_modified": "2023-08-18 06:22:41",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 02:46:19"
+    },
+    "Text Editor Settings": {
+      "name": "Text Editor Settings",
+      "size": 4001,
+      "date_modified": "2023-06-15 05:01:40",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:53"
+    },
+    "Thunar File Manager": {
+      "name": "Thunar File Manager",
+      "size": 23937,
+      "date_modified": "2023-06-13 03:09:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:33:29"
+    },
+    "Time and Date": {
+      "name": "Time and Date",
+      "size": 9505,
+      "date_modified": "2020-12-20 15:14:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Users and Groups": {
+      "name": "Users and Groups",
+      "size": 10207,
+      "date_modified": "2020-12-20 15:14:50",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "View file": {
+      "name": "View file",
+      "size": 1838,
+      "date_modified": "2023-05-25 09:07:13",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-07-10 10:32:27"
+    },
+    "Vim": {
+      "name": "Vim",
+      "size": 5604,
+      "date_modified": "2023-07-04 09:02:26",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 02:51:43"
+    },
+    "VulnHub": {
+      "name": "VulnHub",
+      "size": 250,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "Web Browser": {
+      "name": "Web Browser",
+      "size": 3588,
+      "date_modified": "2023-08-18 06:22:41",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-03 02:46:19"
+    },
+    "Window Manager": {
+      "name": "Window Manager",
+      "size": 23840,
+      "date_modified": "2022-12-15 18:09:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Window Manager Tweaks": {
+      "name": "Window Manager Tweaks",
+      "size": 29309,
+      "date_modified": "2022-12-15 18:09:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "Workspaces": {
+      "name": "Workspaces",
+      "size": 11716,
+      "date_modified": "2022-12-15 18:09:30",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-03-10 09:03:56"
+    },
+    "aircrack-ng": {
+      "name": "aircrack-ng",
+      "size": 284,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "amass": {
+      "name": "amass",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "arping": {
+      "name": "arping",
+      "size": 277,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "autopsy (root)": {
+      "name": "autopsy (root)",
+      "size": 241,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "binwalk": {
+      "name": "binwalk",
+      "size": 294,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "blkcalc": {
+      "name": "blkcalc",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "blkcat": {
+      "name": "blkcat",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "blkls": {
+      "name": "blkls",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "blkstat": {
+      "name": "blkstat",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "bulk_extractor": {
+      "name": "bulk_extractor",
+      "size": 242,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "bully": {
+      "name": "bully",
+      "size": 211,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "burpsuite": {
+      "name": "burpsuite",
+      "size": 249,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "cadaver": {
+      "name": "cadaver",
+      "size": 241,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "cewl": {
+      "name": "cewl",
+      "size": 262,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "chntpw": {
+      "name": "chntpw",
+      "size": 277,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "clang": {
+      "name": "clang",
+      "size": 267,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "clang++": {
+      "name": "clang++",
+      "size": 271,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "commix": {
+      "name": "commix",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "crackmapexec": {
+      "name": "crackmapexec",
+      "size": 259,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "crunch": {
+      "name": "crunch",
+      "size": 276,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "cryptsetup": {
+      "name": "cryptsetup",
+      "size": 223,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "cutycapt": {
+      "name": "cutycapt",
+      "size": 301,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "davtest": {
+      "name": "davtest",
+      "size": 231,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dbd": {
+      "name": "dbd",
+      "size": 220,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dirb": {
+      "name": "dirb",
+      "size": 233,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dirbuster": {
+      "name": "dirbuster",
+      "size": 242,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dmitry": {
+      "name": "dmitry",
+      "size": 257,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dns2tcpc": {
+      "name": "dns2tcpc",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dns2tcpd": {
+      "name": "dns2tcpd",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dnschef": {
+      "name": "dnschef",
+      "size": 247,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dnsenum": {
+      "name": "dnsenum",
+      "size": 325,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "dnsrecon": {
+      "name": "dnsrecon",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "enum4linux": {
+      "name": "enum4linux",
+      "size": 229,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ettercap-graphical": {
+      "name": "ettercap-graphical",
+      "size": 217,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "evil-winrm": {
+      "name": "evil-winrm",
+      "size": 251,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "exe2hex": {
+      "name": "exe2hex",
+      "size": 242,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "faraday start": {
+      "name": "faraday start",
+      "size": 251,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "faraday stop": {
+      "name": "faraday stop",
+      "size": 363,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "fern wifi cracker (root)": {
+      "name": "fern wifi cracker (root)",
+      "size": 257,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ffind": {
+      "name": "ffind",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ffuf": {
+      "name": "ffuf",
+      "size": 246,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "fierce": {
+      "name": "fierce",
+      "size": 319,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "fls": {
+      "name": "fls",
+      "size": 210,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "fping": {
+      "name": "fping",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "fsstat": {
+      "name": "fsstat",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "guymager (root)": {
+      "name": "guymager (root)",
+      "size": 260,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hash-identifier": {
+      "name": "hash-identifier",
+      "size": 215,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hashcat": {
+      "name": "hashcat",
+      "size": 247,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hashdeep": {
+      "name": "hashdeep",
+      "size": 218,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hashid": {
+      "name": "hashid",
+      "size": 287,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hfind": {
+      "name": "hfind",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hping3": {
+      "name": "hping3",
+      "size": 287,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hydra": {
+      "name": "hydra",
+      "size": 448,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "hydra-graphical": {
+      "name": "hydra-graphical",
+      "size": 212,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "icat-sleuthkit": {
+      "name": "icat-sleuthkit",
+      "size": 235,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ifind": {
+      "name": "ifind",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ike-scan": {
+      "name": "ike-scan",
+      "size": 286,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ils-sleuthkit": {
+      "name": "ils-sleuthkit",
+      "size": 232,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "img_cat": {
+      "name": "img_cat",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "img_stat": {
+      "name": "img_stat",
+      "size": 225,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "impacket": {
+      "name": "impacket",
+      "size": 296,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "iodine": {
+      "name": "iodine",
+      "size": 255,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "istat": {
+      "name": "istat",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "jcat": {
+      "name": "jcat",
+      "size": 213,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "jls": {
+      "name": "jls",
+      "size": 210,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "john": {
+      "name": "john",
+      "size": 228,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "kismet": {
+      "name": "kismet",
+      "size": 217,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "laudanum": {
+      "name": "laudanum",
+      "size": 185,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "lbd": {
+      "name": "lbd",
+      "size": 211,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "legion (root)": {
+      "name": "legion (root)",
+      "size": 241,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "lynis": {
+      "name": "lynis",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "macchanger": {
+      "name": "macchanger",
+      "size": 254,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "mactime-sleuthkit": {
+      "name": "mactime-sleuthkit",
+      "size": 244,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "magicrescue": {
+      "name": "magicrescue",
+      "size": 329,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "maltego (installer)": {
+      "name": "maltego (installer)",
+      "size": 362,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "masscan": {
+      "name": "masscan",
+      "size": 254,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "medusa": {
+      "name": "medusa",
+      "size": 238,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "metasploit framework": {
+      "name": "metasploit framework",
+      "size": 281,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "mimikatz": {
+      "name": "mimikatz",
+      "size": 203,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "minicom": {
+      "name": "minicom",
+      "size": 280,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "miredo": {
+      "name": "miredo",
+      "size": 252,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "mitmproxy": {
+      "name": "mitmproxy",
+      "size": 230,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "mmcat": {
+      "name": "mmcat",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "mmls": {
+      "name": "mmls",
+      "size": 213,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "mmstat": {
+      "name": "mmstat",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "msf payload creator": {
+      "name": "msf payload creator",
+      "size": 254,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "nbtscan": {
+      "name": "nbtscan",
+      "size": 271,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ncrack": {
+      "name": "ncrack",
+      "size": 283,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "netcat": {
+      "name": "netcat",
+      "size": 289,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "netdiscover": {
+      "name": "netdiscover",
+      "size": 303,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "netmask": {
+      "name": "netmask",
+      "size": 274,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "netsniff-ng": {
+      "name": "netsniff-ng",
+      "size": 307,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "nikto": {
+      "name": "nikto",
+      "size": 252,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "nmap": {
+      "name": "nmap",
+      "size": 314,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "onesixtyone": {
+      "name": "onesixtyone",
+      "size": 292,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ophcrack": {
+      "name": "ophcrack",
+      "size": 186,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ophcrack-cli": {
+      "name": "ophcrack-cli",
+      "size": 303,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "patator": {
+      "name": "patator",
+      "size": 257,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pdf-parser": {
+      "name": "pdf-parser",
+      "size": 239,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pdfid": {
+      "name": "pdfid",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pipal": {
+      "name": "pipal",
+      "size": 206,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pixiewps": {
+      "name": "pixiewps",
+      "size": 279,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "powershell empire": {
+      "name": "powershell empire",
+      "size": 268,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "powersploit": {
+      "name": "powersploit",
+      "size": 218,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "proxychains4": {
+      "name": "proxychains4",
+      "size": 306,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "proxytunnel": {
+      "name": "proxytunnel",
+      "size": 303,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-curl": {
+      "name": "pth-curl",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-net": {
+      "name": "pth-net",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-rpcclient": {
+      "name": "pth-rpcclient",
+      "size": 234,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-smbclient": {
+      "name": "pth-smbclient",
+      "size": 234,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-smbget": {
+      "name": "pth-smbget",
+      "size": 232,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-sqsh": {
+      "name": "pth-sqsh",
+      "size": 228,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-winexe": {
+      "name": "pth-winexe",
+      "size": 228,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-wmic": {
+      "name": "pth-wmic",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-wmis": {
+      "name": "pth-wmis",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pth-xfreerdp": {
+      "name": "pth-xfreerdp",
+      "size": 221,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ptunnel": {
+      "name": "ptunnel",
+      "size": 286,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "pwnat": {
+      "name": "pwnat",
+      "size": 209,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "radare2": {
+      "name": "radare2",
+      "size": 295,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "reaver": {
+      "name": "reaver",
+      "size": 237,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "rebind": {
+      "name": "rebind",
+      "size": 221,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "recon-ng": {
+      "name": "recon-ng",
+      "size": 220,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "recordmydesktop": {
+      "name": "recordmydesktop",
+      "size": 308,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "responder": {
+      "name": "responder",
+      "size": 230,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "rsmangler": {
+      "name": "rsmangler",
+      "size": 223,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "samdump2": {
+      "name": "samdump2",
+      "size": 227,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sbd": {
+      "name": "sbd",
+      "size": 204,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "scalpel": {
+      "name": "scalpel",
+      "size": 283,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "scapy": {
+      "name": "scapy",
+      "size": 227,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "scrounge-ntfs": {
+      "name": "scrounge-ntfs",
+      "size": 325,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "searchsploit": {
+      "name": "searchsploit",
+      "size": 250,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sigfind": {
+      "name": "sigfind",
+      "size": 222,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "skipfish": {
+      "name": "skipfish",
+      "size": 298,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "smbmap": {
+      "name": "smbmap",
+      "size": 232,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "snmp-check": {
+      "name": "snmp-check",
+      "size": 264,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "social engineering toolkit (root)": {
+      "name": "social engineering toolkit (root)",
+      "size": 236,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sorter": {
+      "name": "sorter",
+      "size": 219,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spiderfoot": {
+      "name": "spiderfoot",
+      "size": 269,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spiderfoot-cli": {
+      "name": "spiderfoot-cli",
+      "size": 259,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spike-generic_chunked": {
+      "name": "spike-generic_chunked",
+      "size": 230,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spike-generic_listen_tcp": {
+      "name": "spike-generic_listen_tcp",
+      "size": 236,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spike-generic_send_tcp": {
+      "name": "spike-generic_send_tcp",
+      "size": 232,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spike-generic_send_udp": {
+      "name": "spike-generic_send_udp",
+      "size": 232,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "spooftooph": {
+      "name": "spooftooph",
+      "size": 235,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sqlmap": {
+      "name": "sqlmap",
+      "size": 304,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "srch_strings": {
+      "name": "srch_strings",
+      "size": 239,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "ssldump": {
+      "name": "ssldump",
+      "size": 258,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sslh": {
+      "name": "sslh",
+      "size": 255,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sslscan": {
+      "name": "sslscan",
+      "size": 246,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sslsplit": {
+      "name": "sslsplit",
+      "size": 269,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "sslyze": {
+      "name": "sslyze",
+      "size": 216,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "starkiller": {
+      "name": "starkiller",
+      "size": 260,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "stunnel4": {
+      "name": "stunnel4",
+      "size": 224,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "swaks": {
+      "name": "swaks",
+      "size": 180,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "tcpdump": {
+      "name": "tcpdump",
+      "size": 256,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "tcpreplay": {
+      "name": "tcpreplay",
+      "size": 284,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "thc-pptp-bruter": {
+      "name": "thc-pptp-bruter",
+      "size": 251,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "thcping6": {
+      "name": "thcping6",
+      "size": 233,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "theharvester": {
+      "name": "theharvester",
+      "size": 242,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "tsk_comparedir": {
+      "name": "tsk_comparedir",
+      "size": 243,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "tsk_gettimes": {
+      "name": "tsk_gettimes",
+      "size": 240,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "tsk_loaddb": {
+      "name": "tsk_loaddb",
+      "size": 231,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "tsk_recover": {
+      "name": "tsk_recover",
+      "size": 234,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "udptunnel": {
+      "name": "udptunnel",
+      "size": 225,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "unix-privesc-check": {
+      "name": "unix-privesc-check",
+      "size": 268,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "voiphopper": {
+      "name": "voiphopper",
+      "size": 227,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wafw00f": {
+      "name": "wafw00f",
+      "size": 297,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wapiti": {
+      "name": "wapiti",
+      "size": 301,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "webshells": {
+      "name": "webshells",
+      "size": 188,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "weevely": {
+      "name": "weevely",
+      "size": 281,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wfuzz": {
+      "name": "wfuzz",
+      "size": 247,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "whatweb": {
+      "name": "whatweb",
+      "size": 234,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wifite": {
+      "name": "wifite",
+      "size": 297,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wireshark": {
+      "name": "wireshark",
+      "size": 767,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wordlists": {
+      "name": "wordlists",
+      "size": 203,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wpscan": {
+      "name": "wpscan",
+      "size": 313,
+      "date_modified": "2023-09-07 05:17:38",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-09-07 05:17:38"
+    },
+    "wxHexEditor": {
+      "name": "wxHexEditor",
+      "size": 343,
+      "date_modified": "2022-12-27 20:23:22",
+      "owner": 0,
+      "group": 0,
+      "date_created": "2023-05-30 03:29:19"
+    }
   }
 }

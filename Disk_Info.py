@@ -1,3 +1,4 @@
+import os
 import psutil
 
 
@@ -20,7 +21,8 @@ def get_Common_Disk_Info() -> dict:
         # displaying the partition and usage information
 
         for partition in disk_partitions:
-            if not ("cdrom" in partition.opts or "dvd" in partition.opts):
+            if os.access(partition.mountpoint, os.R_OK) and not ("cdrom" in partition.opts or "dvd" in partition.opts):
+                # print(partition)
                 disk_usage = psutil.disk_usage(partition.mountpoint)
                 if disk_usage.total:
                     result[partition.device] = {
@@ -37,7 +39,7 @@ def get_Common_Disk_Info() -> dict:
         result["Total Read since boot"] = f"{bytes_to_GB(disk_rw.read_bytes)} GB"
         result["Total Write since boot"] = f"{bytes_to_GB(disk_rw.write_bytes)} GB"
     except Exception as e:
-        print(f"Ошибка при получении информации: {e}")
+        print(f"Ошибка при получении информации о дисках: {e}")
     return result
 
 
@@ -68,7 +70,7 @@ def get_CD_DVD_info() -> dict:
             result["Total Read since boot"] = f"{bytes_to_GB(disk_rw.read_bytes)} GB"
             result["Total Write since boot"] = f"{bytes_to_GB(disk_rw.write_bytes)} GB"
     except Exception as e:
-        print(f"Ошибка при получении информации: {e}")
+        print(f"Ошибка при получении информации о CD/DVD: {e}")
     return result
 
 
