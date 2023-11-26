@@ -1,7 +1,7 @@
 import os
 
 
-def get_DMI_id_Info():
+def get_Unix_DMI_id_Info():
     dmi_info = {}
     try:
         dmi_path = "/sys/class/dmi/id/"
@@ -25,4 +25,4 @@ def get_DMI_id_Info():
 
 
 if __name__ == "__main__":
-    print(get_DMI_id_Info())
+    print(get_Unix_DMI_id_Info())
