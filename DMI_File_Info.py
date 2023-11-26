@@ -1,28 +1,28 @@
-import subprocess
+import os
 
 
-def get_dmi_info():
+def get_DMI_id_Info():
     dmi_info = {}
     try:
-        # Выполняем команду grep и обрабатываем результат
-        grep_output = subprocess.check_output(["ls",  "/sys/class/dmi/id/", "|", "grep", "[^bps]"]).decode('utf-8')
-        print(grep_output)
-        lines = grep_output.split('\n')
+        dmi_path = "/sys/class/dmi/id/"
 
-        # Помещаем каждую запись в словарь
-        for line in lines:
-            if line:
-                key, value = line.split(":", 1)
-                dmi_info[key.strip()] = value.strip()
+        # Получаем список файлов в директории
+        files = os.listdir(dmi_path)
+
+        # Фильтруем файлы по заданным условиям и добавляем их в словарь
+        filtered_files = [file for file in files if file.startswith(('b', 's', 'p'))]
+        for file in filtered_files:
+            file_path = os.path.join(dmi_path, file)
+            if os.access(file_path, os.R_OK):
+                with open(file_path, 'r') as f:
+                    content = f.read().strip()
+                    dmi_info[file] = content
 
     except Exception as e:
         print(f"Ошибка: {e}")
 
     return dmi_info
 
-if __name__ == "__main__":
-    dmi_info = get_dmi_info()
 
-    print("Информация из /sys/class/dmi/id/:")
-    for key, value in dmi_info.items():
-        print(f"{key}: {value}")
+if __name__ == "__main__":
+    print(get_DMI_id_Info())
