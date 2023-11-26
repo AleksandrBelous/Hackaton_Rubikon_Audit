@@ -14,13 +14,13 @@ def get_Common_Network_Info() -> dict:
     # the information of each network interfaces
     result = {
         interface_name: {
-            address: {
+            count: {
                 "Address": address.address,
                 "Netmask": address.netmask,
                 "Broadcast": address.broadcast,
                 "point to point": address.ptp
-            } for address in if_addrs[interface_name]
-        } for interface_name in if_addrs
+            } for address in if_addrs[interface_name] if (count := count + 1)
+        } for interface_name in if_addrs if (count := 0) or True
     }
 
     # getting the read/write statistics of network since boot
