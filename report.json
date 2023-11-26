@@ -11,7 +11,7 @@
   },
   "Системное время": {
     "System Boot Time": "2023-11-25 14:24:24",
-    "System Uptime": "1:26 hours"
+    "System Uptime": "4:46 hours"
   },
   "Пользователи": {
     "kali": {
@@ -28,9 +28,9 @@
     "Max Frequency": "0.00Mhz",
     "Min Frequency": "0.00Mhz",
     "Current Frequency": "2304.00Mhz",
-    "CPU Usage of Core 0": "100.0%",
-    "CPU Usage of Core 1": "79.4%",
-    "Total CPU Usage": "90.8%"
+    "CPU Usage of Core 0": "33.7%",
+    "CPU Usage of Core 1": "42.0%",
+    "Total CPU Usage": "41.5%"
   },
   "Процессоры": {
     "Processor 0": " Intel(R) Pentium(R) CPU 4417U @ 2.30GHz",
@@ -43,12 +43,12 @@
       "Options": "rw",
       "Mount point": "/",
       "Total Disk Space": "78.28 GB",
-      "Free Disk Space": "54.14 GB",
-      "Used Disk Space": "20.12 GB",
-      "Percentage Used": "27.1 %"
+      "Free Disk Space": "54.0 GB",
+      "Used Disk Space": "20.26 GB",
+      "Percentage Used": "27.3 %"
     },
-    "Total Read since boot": "1.56 GB",
-    "Total Write since boot": "0.69 GB"
+    "Total Read since boot": "1.76 GB",
+    "Total Write since boot": "1.94 GB"
   },
   "CD/DVD устройства": {},
   "USB устройства": {
@@ -78,9 +78,9 @@
   },
   "Данные о RAM памяти": {
     "Total Memory present": "7.76 Gb",
-    "Total Memory Available": "4.0 Gb",
-    "Total Memory Used": "3.48 Gb",
-    "Percentage Total Memory Used": "48.5 %",
+    "Total Memory Available": "3.61 Gb",
+    "Total Memory Used": "3.84 Gb",
+    "Percentage Total Memory Used": "53.5 %",
     "Total swap memory": 1.0,
     "Free swap memory": 1.0,
     "Used swap memory": 0.0,
@@ -134,7 +134,7 @@
       }
     },
     "Total Bytes Sent": "0.0 GB",
-    "Total Bytes Received": "0.0 GB"
+    "Total Bytes Received": "0.05 GB"
   },
   "Приложения": {
     "About Xfce": {
